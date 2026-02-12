@@ -20,4 +20,4 @@ export const readFileSync = (path) => {
         const data = fs.readFileSync(path, 'utf-8');
         console.log(data, "Data has been read successfully...");
     } catch (error) {
-        console.log("unable to read data");
+        console.log("unable to read data");0
